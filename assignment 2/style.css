@@ -1,0 +1,159 @@
+* {
+    padding: 0;
+    margin: 0;
+}
+
+body {
+    background: #14120b;
+    color: #d7d8d5;
+    font-family: "CursorGothic", "CursorGothic Fallback", system-ui, Helvetica Neue, Helvetica, Arial, sans-serif;
+    padding-left: 20px;
+    padding-right: 20px;
+    padding-top: 3px;
+
+}
+
+.main {
+    display: flex;
+    justify-content: space-between;
+    padding: 1px;
+}
+
+#options {
+    display: flex;
+    color: #fff;
+    padding: 8px;
+    width: 25%;
+    justify-content: space-between;
+
+}
+
+#options>div>a {
+    font-size: 14px;
+    font-weight: 500;
+}
+
+#logo {
+    font-weight: 600;
+    font-size: large;
+    height: 1;
+    display: flex;
+    justify-content: space-between;
+    gap: 6px;
+    align-items: center;
+}
+
+#logo>img {
+    height: 30px;
+    width: 30px;
+}
+
+
+
+#signinbtn {
+    background-color: #14120b;
+    padding: 1px 10px;
+    border-radius: 20px;
+    border-width: thin;
+    border-color: #fff;
+    color: #d7d8d5;
+    cursor: pointer;
+}
+
+.buttons {
+    display: flex;
+    margin: 10px;
+    gap: 10px;
+
+}
+
+.buttons>button {
+    height: 25px
+}
+
+#downloadbtn {
+    background-color: #d7d8d5;
+    padding: 5px;
+    border-radius: 20px;
+    border-width: thin;
+    border-color: #fff;
+    color: #14120b;
+    cursor: pointer;
+}
+
+a {
+    color: white;
+    text-decoration: none;
+}
+
+main {
+    padding-top: 100px;
+}
+
+#downloadfordevice>p {
+    font-size: 25px;
+    font-weight: 500;
+}
+
+#downloadfordevice>button {
+    background-color: #d7d8d5;
+    padding: 10px;
+    padding-left: 20px;
+    padding-right: 20px;
+    border-radius: 20px;
+    text-decoration: none;
+    border: none;
+    margin-top: 20px;
+    font-size: 15px;
+}
+
+#heroimage {
+    margin-top: 50px;
+
+}
+
+#heroimage>img {
+    width: 95vw;
+    border-radius: 5px;
+}
+
+#trustedby {
+    margin-top: 30px;
+}
+
+#trustedby>img {
+    width: 95vw;
+    margin-top: 10px;
+}
+
+#features-1 {
+    background: #1d1b15;
+    width: 93vw;
+    height: 80vh;
+    display: flex;
+    align-items: center;
+    border-radius: 5px;
+    /* margin-right: 25px; */
+    padding-top: 10px;
+    padding-bottom: 10px;
+    padding-left: 30px;
+    margin-top: 15px;
+    overflow: hidden;
+    justify-content: space-around;
+}
+
+#features-1>div>p{
+    line-height: 1.5;
+    font-size: large;
+}
+#features-1>div>img {
+    /* width:90vh; */
+    height: 450px;
+    border-radius: 5px;
+}
+
+#testonomials{
+    display: grid;
+    grid-template-columns: 3;
+    grid-template-rows: 2;
+}

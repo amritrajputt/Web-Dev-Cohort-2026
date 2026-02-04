@@ -1,0 +1,1 @@
+[DNS Record Types Explained:](https://dnsrecordschaiaurcode.hashnode.dev/dns-record-types-explained)
